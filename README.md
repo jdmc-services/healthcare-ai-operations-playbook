@@ -107,3 +107,103 @@ C --> D[AI Prompt Engine - LLM Analysis]
 D --> E[Incident Classification]
 E --> F[Root Cause Suggestions]
 F --> G[Operational Summary Report - Engineer Decision Support]
+
+```
+
+## How the Workflow Works
+
+1. **Monitoring Systems**  
+Infrastructure monitoring tools generate alerts from helpdesk systems, network devices, and cloud platforms.
+
+2. **Operational Data Export**  
+Alerts and events are exported into structured formats such as CSV files, logs, or monitoring metrics.
+
+3. **Automation Processing Layer**  
+Python scripts analyze operational data to identify patterns, summarize incidents, and categorize events.
+
+4. **AI Prompt Engine**  
+AI models evaluate the processed data using structured prompts to assist with analysis.
+
+5. **Incident Classification**  
+The AI system categorizes the incident type based on operational signals.
+
+6. **Root Cause Suggestions**  
+AI proposes likely root causes and troubleshooting steps for engineers.
+
+7. **Operational Summary Report**  
+Engineers receive a summarized report that supports decision-making and incident response.
+
+---
+
+## Running the Example Scripts
+
+The modules in this repository include simple Python scripts that demonstrate how operational data can be analyzed and summarized.
+
+### Network Incident Analysis Example
+
+Navigate to the network analysis module:
+
+```
+cd ai-network-incident-analysis/scripts
+```
+
+Run the incident report generator:
+
+```
+python generate_incident_report.py
+```
+
+Example output:
+
+```
+AI-Style Incident Report
+========================
+
+Total alerts analyzed: 5
+Most common alert type: connectivity
+Most frequent severity level: high
+```
+
+---
+
+### Helpdesk Automation Example
+
+Navigate to the helpdesk module:
+
+```
+cd ai-helpdesk-automation/scripts
+```
+
+Run the helpdesk report generator:
+
+```
+python generate_helpdesk_report.py
+```
+
+Example output:
+
+```
+AI Helpdesk Operational Report
+==============================
+
+Total tickets analyzed: 8
+Most common issue category: network access
+Most frequent priority level: medium
+```
+
+---
+
+## Operational Value
+
+AI-assisted automation can help organizations:
+
+- Reduce mean time to resolution (MTTR)
+- Improve incident classification accuracy
+- Identify recurring infrastructure problems
+- Provide engineers with faster troubleshooting insights
+
+---
+
+## License
+
+This project is licensed under the MIT License.
