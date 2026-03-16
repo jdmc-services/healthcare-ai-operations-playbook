@@ -203,6 +203,56 @@ AI-assisted automation can help organizations:
 - Provide engineers with faster troubleshooting insights
 
 ---
+---
+
+## Running the Example Scripts
+
+### Run the Full AI Operations Demo
+
+From the root of the repository, run:
+
+```bash
+python run_ai_operations_demo.py
+```
+
+This will execute both:
+
+- the Helpdesk Operational Report generator
+- the Network Incident Report generator
+
+and print the combined output to the terminal.
+
+---
+
+### Network Incident Analysis Example
+
+Navigate to the network analysis module:
+
+```
+cd ai-network-incident-analysis/scripts
+```
+
+Run the incident report generator:
+
+```
+python generate_incident_report.py
+```
+
+---
+
+### Helpdesk Automation Example
+
+Navigate to the helpdesk module:
+
+```
+cd ai-helpdesk-automation/scripts
+```
+
+Run the helpdesk report generator:
+
+```
+python generate_helpdesk_report.py
+```
 
 ## License
 
