@@ -1,34 +1,14 @@
-# AI Network Incident Analysis
+### Additional Reporting Script
 
-## Overview
+This module also includes:
 
-Modern healthcare networks generate thousands of alerts from monitoring platforms such as network monitoring tools, firewalls, wireless controllers, and routers.
+`scripts/generate_incident_report.py`
 
-Artificial Intelligence can assist Network Operations teams by:
+The script reads the fictional network alert dataset and generates a short incident-style report showing:
 
-• Classifying alerts  
-• Identifying recurring infrastructure problems  
-• Prioritizing high-severity incidents  
-• Suggesting troubleshooting steps  
+- total alerts analyzed
+- most common alert type
+- severity breakdown
+- an operational summary
 
-This module demonstrates how automation and AI analysis can assist network engineering teams.
-
----
-
-## Example Operational Workflow
-
-Network Monitoring Platform  
-↓  
-Alert Export (CSV Dataset)  
-↓  
-Automation Script Processing  
-↓  
-AI Incident Classification  
-↓  
-Operational Summary Report
-
----
-
-## Example Dataset
-
-This module includes a fictional dataset located in:
+This demonstrates how automation can support AI-assisted incident reporting workflows.
