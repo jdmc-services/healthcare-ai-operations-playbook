@@ -12,3 +12,21 @@ The script reads the fictional helpdesk dataset and produces an operational summ
 - a short operational summary
 
 This demonstrates how AI-assisted automation could help helpdesk teams identify recurring problems and improve incident response workflows.
+
+---
+
+## Helpdesk AI Workflow
+
+```mermaid
+flowchart TD
+
+A[Helpdesk Ticket System] --> B[Ticket Dataset Export CSV]
+
+B --> C[Python Analysis Script]
+
+C --> D[AI Prompt Engine]
+
+D --> E[Incident Classification]
+
+E --> F[Operational Helpdesk Summary]
+```
