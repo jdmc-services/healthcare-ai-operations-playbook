@@ -14,18 +14,19 @@ The examples in this repository are **fictional datasets designed for demonstrat
 
 Location:
 
+`ai-helpdesk-automation`
 
 This module demonstrates how AI can assist IT helpdesk teams by:
 
-• Categorizing support tickets  
-• Summarizing recurring issues  
-• Suggesting troubleshooting steps  
+- Categorizing support tickets
+- Summarizing recurring issues
+- Suggesting troubleshooting steps
 
 Components included:
 
-• Ticket dataset  
-• Python automation script  
-• AI prompt library  
+- Ticket dataset
+- Python automation script
+- AI prompt library
 
 ---
 
@@ -33,20 +34,22 @@ Components included:
 
 Location:
 
+`ai-network-incident-analysis`
+
 This module demonstrates how AI can assist Network Operations teams by analyzing infrastructure alerts.
 
 Capabilities demonstrated:
 
-• Incident classification  
-• Infrastructure alert analysis  
-• Root cause suggestions  
-• Troubleshooting recommendations  
+- Incident classification
+- Infrastructure alert analysis
+- Root cause suggestions
+- Troubleshooting recommendations
 
 Components included:
 
-• Network alert dataset  
-• Python incident summary script  
-• AI analysis prompts  
+- Network alert dataset
+- Python incident summary script
+- AI analysis prompts
 
 ---
 
@@ -68,9 +71,9 @@ Operational Summary Report
 
 This project demonstrates how AI-assisted automation can support modern IT operations teams in environments such as:
 
-• Healthcare systems  
-• Enterprise infrastructure  
-• Telecommunications networks  
+- Healthcare systems
+- Enterprise infrastructure
+- Telecommunications networks
 
 The goal is to illustrate practical ways AI can assist engineers with operational analysis and troubleshooting.
 
@@ -80,9 +83,9 @@ The goal is to illustrate practical ways AI can assist engineers with operationa
 
 Planned additions include:
 
-• AI Cloud Operations Automation  
-• AI Security Operations Analysis  
-• AI Infrastructure Monitoring
+- AI Cloud Operations Automation
+- AI Security Operations Analysis
+- AI Infrastructure Monitoring
 
 ---
 
