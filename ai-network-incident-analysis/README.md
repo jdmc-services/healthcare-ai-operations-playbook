@@ -1,29 +1,34 @@
 # AI Network Incident Analysis
 
-This module demonstrates how artificial intelligence can assist network operations teams with analyzing infrastructure alerts and operational logs.
+## Overview
 
-## Problem
+Modern healthcare networks generate thousands of alerts from monitoring platforms such as network monitoring tools, firewalls, wireless controllers, and routers.
 
-Network operations centers receive large numbers of alerts from monitoring systems.
+Artificial Intelligence can assist Network Operations teams by:
 
-Engineers must manually review alerts to determine the root cause and operational impact.
+• Classifying alerts  
+• Identifying recurring infrastructure problems  
+• Prioritizing high-severity incidents  
+• Suggesting troubleshooting steps  
 
-## AI Opportunity
+This module demonstrates how automation and AI analysis can assist network engineering teams.
 
-AI can assist by:
+---
 
-• summarizing alert patterns  
-• identifying likely root causes  
-• recommending troubleshooting steps  
+## Example Operational Workflow
 
-## Example Workflow
-
-Network Monitoring System  
+Network Monitoring Platform  
 ↓  
-Log Aggregation Platform  
+Alert Export (CSV Dataset)  
 ↓  
-AI Analysis Engine  
+Automation Script Processing  
 ↓  
-Incident Classification  
+AI Incident Classification  
 ↓  
-Engineer Notification
+Operational Summary Report
+
+---
+
+## Example Dataset
+
+This module includes a fictional dataset located in:
