@@ -66,6 +66,29 @@ AI Analysis
 Operational Summary Report
 
 ---
+## AI Operations Workflow Architecture
+
+```mermaid
+flowchart TD
+
+A[Monitoring Systems<br>Helpdesk / Network / Cloud] --> B[Operational Data Export<br>CSV / Logs / Metrics]
+
+B --> C[Automation Processing Layer<br>Python Analysis Scripts]
+
+C --> D[AI Prompt Engine<br>LLM Analysis]
+
+D --> E[Incident Classification]
+
+E --> F[Root Cause Suggestions]
+
+F --> G[Operational Summary Report<br>Engineer Decision Support]
+
+---
+
+# Step 4 — Commit the Change
+
+Use these values.
+
 
 # Purpose of This Repository
 
