@@ -1,0 +1,6 @@
+alert_id,device,alert_type,severity,description
+2001,core-switch-01,latency,high,High latency detected between core switch and distribution layer
+2002,firewall-02,access,medium,Multiple failed remote access attempts detected
+2003,router-05,connectivity,high,Branch router unreachable from central monitoring system
+2004,wireless-controller-01,performance,medium,Wireless controller reporting degraded throughput
+2005,switch-22,interface,low,Interface flapping detected on access switch port
