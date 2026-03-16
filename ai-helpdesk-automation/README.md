@@ -1,21 +1,14 @@
-# AI Helpdesk Automation
+### Helpdesk Operational Report Script
 
-Healthcare IT helpdesks receive large volumes of support tickets each day.
+This module includes a report generator:
 
-AI systems can assist by:
+scripts/generate_helpdesk_report.py
 
-• Categorizing tickets  
-• Summarizing recurring issues  
-• Suggesting troubleshooting steps  
+The script reads the fictional helpdesk dataset and produces an operational summary showing:
 
-## Example Workflow
+- total tickets analyzed
+- most common issue categories
+- priority distribution
+- a short operational summary
 
-Support Ticket System  
-        ↓  
-Ticket Data Export  
-        ↓  
-AI Analysis Engine  
-        ↓  
-Categorized Incidents  
-        ↓  
-Operational Summary Report
+This demonstrates how AI-assisted automation could help helpdesk teams identify recurring problems and improve incident response workflows.
