@@ -1,10 +1,39 @@
 # Healthcare AI Operations Playbook
 
-AI-driven operational automation frameworks for healthcare IT environments.
+![AI Operations](https://img.shields.io/badge/AI-Operations-blue)
+![Python](https://img.shields.io/badge/Python-Automation-green)
+![Infrastructure](https://img.shields.io/badge/Infrastructure-Engineering-orange)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-This repository demonstrates how artificial intelligence can support IT operations teams by analyzing operational data and assisting with troubleshooting workflows.
+AI-driven operational automation frameworks demonstrating how artificial intelligence can assist IT operations teams with analyzing infrastructure data and supporting incident response workflows.
 
-The examples in this repository are **fictional datasets designed for demonstration and training purposes only.**
+This repository demonstrates practical examples of AI-assisted automation applied to:
+
+• Helpdesk operations  
+• Network incident analysis  
+• Cloud infrastructure monitoring  
+
+All datasets included in this repository are fictional and used only for demonstration and educational purposes.
+
+---
+
+## AI Operations Platform Overview
+
+```mermaid
+flowchart TD
+
+A[Monitoring Systems<br>Helpdesk / Network / Cloud] --> B[Operational Data Export<br>CSV / Logs / Metrics]
+
+B --> C[Automation Processing Layer<br>Python Scripts]
+
+C --> D[AI Prompt Engine<br>LLM Analysis]
+
+D --> E[Incident Classification]
+
+E --> F[Root Cause Suggestions]
+
+F --> G[Operational Decision Support]
+```
 
 ---
 
