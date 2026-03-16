@@ -1,7 +1,9 @@
-ticket_id,category,description,priority
-1001,network,User cannot connect to VPN from home,high
-1002,application,EHR login failure after password reset,high
-1003,network,Intermittent WiFi connectivity in clinic,medium
-1004,hardware,Laptop battery no longer holds charge,low
-1005,application,User locked out of scheduling system,medium
-1006,network,Network drive access unavailable for remote staff,high
+
+The dataset represents simulated infrastructure alerts including:
+
+• Network latency events  
+• Connectivity failures  
+• Security access alerts  
+• Performance degradation warnings  
+
+Example alert record:
