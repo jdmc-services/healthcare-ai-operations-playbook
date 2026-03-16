@@ -71,23 +71,17 @@ Operational Summary Report
 ```mermaid
 flowchart TD
 
-A[Monitoring Systems<br>Helpdesk / Network / Cloud] --> B[Operational Data Export<br>CSV / Logs / Metrics]
+A[Monitoring Systems - Helpdesk / Network / Cloud] --> B[Operational Data Export - CSV Logs Metrics]
 
-B --> C[Automation Processing Layer<br>Python Analysis Scripts]
+B --> C[Automation Processing Layer - Python Analysis Scripts]
 
-C --> D[AI Prompt Engine<br>LLM Analysis]
+C --> D[AI Prompt Engine - LLM Analysis]
 
 D --> E[Incident Classification]
 
 E --> F[Root Cause Suggestions]
 
-F --> G[Operational Summary Report<br>Engineer Decision Support]
-
----
-
-# Step 4 — Commit the Change
-
-Use these values.
+F --> G[Operational Summary Report - Engineer Decision Support]
 
 
 # Purpose of This Repository
