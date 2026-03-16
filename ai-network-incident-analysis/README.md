@@ -12,3 +12,22 @@ The script reads the fictional network alert dataset and generates a short incid
 - an operational summary
 
 This demonstrates how automation can support AI-assisted incident reporting workflows.
+---
+
+## Network Incident AI Workflow
+
+```mermaid
+flowchart TD
+
+A[Network Monitoring System] --> B[Alert Dataset Export CSV]
+
+B --> C[Automation Processing Script]
+
+C --> D[AI Prompt Analysis]
+
+D --> E[Incident Classification]
+
+E --> F[Root Cause Suggestions]
+
+F --> G[Operational Incident Report]
+```
