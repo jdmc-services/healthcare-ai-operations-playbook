@@ -68,44 +68,13 @@ Operational Summary Report
 ---
 ## AI Operations Workflow Architecture
 
+The diagram below illustrates how operational data flows through automation scripts and AI analysis to support IT operations teams.
+
 ```mermaid
 flowchart TD
-
 A[Monitoring Systems - Helpdesk / Network / Cloud] --> B[Operational Data Export - CSV Logs Metrics]
-
 B --> C[Automation Processing Layer - Python Analysis Scripts]
-
 C --> D[AI Prompt Engine - LLM Analysis]
-
 D --> E[Incident Classification]
-
 E --> F[Root Cause Suggestions]
-
 F --> G[Operational Summary Report - Engineer Decision Support]
-
-
-# Purpose of This Repository
-
-This project demonstrates how AI-assisted automation can support modern IT operations teams in environments such as:
-
-- Healthcare systems
-- Enterprise infrastructure
-- Telecommunications networks
-
-The goal is to illustrate practical ways AI can assist engineers with operational analysis and troubleshooting.
-
----
-
-# Future Modules
-
-Planned additions include:
-
-- AI Cloud Operations Automation
-- AI Security Operations Analysis
-- AI Infrastructure Monitoring
-
----
-
-# License
-
-This repository is released under the MIT License.
